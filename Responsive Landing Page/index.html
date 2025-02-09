@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RESPONSIVE LANDING PAGE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"></div>
+    <nav class="nav-links">
+      <a href="#home" class="nav-item">Home</a>
+      <a href="#about" class="nav-item">About</a>
+      <a href="#services" class="nav-item">Services</a>
+      <a href="#contact" class="nav-item">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="section">
+    <div class="hero-content">
+      <h1>Welcome to Our Website</h1>
+      <p>Your journey to excellence begins here.</p>
+      <a href="#about" class="cta-button">Learn More</a>
+    </div>
+  </section>
+  
+  <section id="about" class="section">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>
+        We are a team of passionate developers committed to creating amazing digital experiences. 
+        Our mission is to innovate and inspire through technology.
+      </p>
+      <div class="team-gallery">
+        <div class="team-member">
+            <img src="https://img.freepik.com/premium-vector/faceless-business-woman-vector_844724-14846.jpg" alt="Founder">
+            <p class="team-caption">Samaira Singhania<br>Founder</p> 
+        </div>
+        <div class="team-member">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyz7NWpGFyJLSfNrkJlntcLBdX28Ug0ygz2A&s" alt="Developer">
+            <p class="team-caption">Reyansh Sinha<br>Developer</p>
+        </div> 
+        <div class="team-member">
+            <img src="https://img.freepik.com/premium-vector/professional-businesswoman-avatar-icon-flat-vector-isolated-white-background_1120563-20454.jpg" alt="Project Manager">
+            <p class="team-caption">Tanvi Mathur<br>Project Manager</p> 
+        </div>
+         
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services-section">
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-subtitle">Explore the range of services we offer to empower your business.</p>
+    
+    <div class="services-container">
+      <div class="service-card">
+        <div class="icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <h3>Web Development</h3>
+        <p>Custom, scalable websites tailored to your business needs, ensuring top-notch performance and design.</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="icon">
+          <i class="fas fa-paint-brush"></i>
+        </div>
+        <h3>UI/UX Design</h3>
+        <p>Crafting user-centric designs that blend aesthetics with functionality for an exceptional experience.</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="icon">
+          <i class="fas fa-cloud"></i>
+        </div>
+        <h3>Cloud Solutions</h3>
+        <p>Leverage the power of cloud computing for seamless scalability, security, and performance.</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="icon">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <h3>Mobile App Development</h3>
+        <p>Build intuitive, high-performing mobile applications for iOS and Android platforms.</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section id="contact" class="section">
+    <div class="contact-content">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="submit-button">Send Message</button>
+      </form>
+      <p class="contact-message"></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Rajsi Sinha | Built with ❤️</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
